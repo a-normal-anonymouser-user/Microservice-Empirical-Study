@@ -14,30 +14,22 @@ For open coding, two of the authors of the paper independently read the transcri
 
 Conceptually similar codes were grouped together to form categories. Our mapping of concepts -> subcategories -> categories is below. 
 
-[![](mindmap.png)](mindmap.png)
+[![](mindmap.png)](mindmap-1.png)
 
-Digial version can be downloaded [here](MicroserviceStudy.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
-
-
-### All the Identified Categories (?)
-
-In total, we identified 46 concepts, linked to 246 quotes. As qualitative analysis seeks to find significant concepts and explore their relationships, we only considered concepts that capture ideas mentioned by at least three study participants, excluding from the final report 30 quotes belonging to 16 concepts. [Here]() is the list of all the categories we identified in interviews. 
-
+Digial version can be downloaded [here](MicroserviceStudy-1.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
 
 
 ## Survey Study
 
 
-### Survey Form
+### Survey Questions
 The survey consisted of eight groups of questions and a total of 37 questions of mixed types. Most of the questions were single or multiple choices, numeric range choices, yes/no options, and open-ended text entries.
 
 In addition to the microservice background and demographic information, we asked questions related to architectural concepts, infrastructure, and code management. In each question, participants had a chance to either agree or disagree with best practices identified during the interview study, or identify their solution for a particular challenge. We also asked participants to distinguish between the solution they apply in practice (what they do) and their perception (what they think they should do). [Here](survey.pdf) is pdf version of the survey.
 
 
 ### Survey Data 
-We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Click [here](SurveyData.csv) to download the raw data of all complete responses we received, all the participants confidential information are removed. 
-
-
+We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. 
 
 
 
