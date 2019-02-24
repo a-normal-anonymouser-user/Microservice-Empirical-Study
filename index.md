@@ -10,11 +10,6 @@ For open coding, two of the authors of the paper independently read the transcri
 [![](card_sorting_exercise8.jpeg)](card_sorting_exercise8.jpeg)  [![](card_sorting_exercise12.jpeg)](card_sorting_exercise12.jpeg)
 
 
-### All the Identified Categories
-
-As qualitative analysis seeks to find significant concepts and explore their relationships, we only considered concepts that capture ideas mentioned by at least three study participants, excluding from the final report 18 quotes belonging to 14 concepts. [Here]() is the list of all the categories we identified in interviews. 
-
-
 ### Mapping Concepts to Quotes
 
 Conceptually similar codes were grouped together to form categories. Our mapping of concepts -> subcategories -> categories is below. 
@@ -22,6 +17,11 @@ Conceptually similar codes were grouped together to form categories. Our mapping
 [![](mindmap.png)](mindmap.png)
 
 Digial version can be downloaded [here](MicroserviceStudy.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
+
+
+### All the Identified Categories (?)
+
+In total, we identified 46 concepts, linked to 246 quotes. As qualitative analysis seeks to find significant concepts and explore their relationships, we only considered concepts that capture ideas mentioned by at least three study participants, excluding from the final report 30 quotes belonging to 16 concepts. [Here]() is the list of all the categories we identified in interviews. 
 
 
 
