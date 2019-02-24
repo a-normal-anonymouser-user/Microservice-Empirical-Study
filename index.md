@@ -260,12 +260,19 @@ Q28: Did you participate in our earlier interview study?
 The following questions are intended to collect demographic information about the survey participant. The questions are fully optional but your answers will be highly appreciated.
 
 Q29: How long have you been working in industry? [Dropbox]
+
 Q30: Which company do you work at? 
+
 Q31: How long have you been working at the company?  [Dropbox]
+
 Q32: What is your job title?
+
 Q33: What type of application are you developing?
+
 Q34: What is your age? [Dropbox]
+
 Q35: What is your gender? [Dropbox]
+
 Q36: What is the highest degree that you have received? [Dropbox]
 
 
