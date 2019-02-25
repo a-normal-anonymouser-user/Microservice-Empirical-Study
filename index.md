@@ -275,7 +275,7 @@ Thank you very much for taking the time filling in the survey, we sincerely appr
 ------------ 
 
 
-## Survey Data 
+## Survey Results 
 We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Here are the survey results:
 
 
