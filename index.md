@@ -27,18 +27,18 @@ The survey consisted of eight groups of questions and a total of 37 questions of
 
 In addition to the microservice background and demographic information, we asked questions related to architectural concepts, infrastructure, and code management. In each question, participants had a chance to either agree or disagree with best practices identified during the interview study, or identify their solution for a particular challenge. We also asked participants to distinguish between the solution they apply in practice (what they do) and their perception (what they think they should do). 
 
-Here are the list of survey questions: 
+Here is the list of survey questions: 
 
 ------------
 
 
-Q1: How long have you been developing microservices? [Dropbox]
+Q1: How long have you been developing microservices? [Number entry]
 
-Q2: In your most significant microservice-based development project, how long has the team been developing microservices?  [Dropbox]
+Q2: In your most significant microservice-based development project, how long has the team been developing microservices? [Number entry]
 
-Q3: How many members are there in the team?  [Dropbox]
+Q3: How many members are there in the team?  [Number entry]
 
-Q4: How many microservices does the team develop and maintain?
+Q4: How many microservices does the team develop and maintain? [Numeric range choices]
   * < 6
   * 6-10
   * 11-20
@@ -47,7 +47,7 @@ Q4: How many microservices does the team develop and maintain?
   * 51-100
   * &gt;100
 
-Q5: How many microservices do you typically work on? 
+Q5: How many microservices do you typically work on? [Numeric range choices]
   * < 6
   * 6-10
   * 11-20
@@ -56,195 +56,209 @@ Q5: How many microservices do you typically work on?
   * 51-100
   * &gt;100
 
-Q6: Are you working on commercial or open source project?
+Q6: Are you working on commercial or open source project? [Single choice]
   * Commercial 
   * Open source
 
 
 > Robust logging and monitoring systems are critical for efficient microservice-based development.
 
-Q7: To what extent do you agree with the above statement in general:
+Q7: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. These systems should be set up as early as possible.
   * Agree. These systems should be set up later during the project. 
   * Disagree. I do not think these systems are necessary. 
-  * Other: 
+  * Other: [Text entry]
 
 
-Q8: In the context of your project, when did you set up logging and monitoring? 
+Q8: In the context of your project, when did you set up logging and monitoring? [Single choice]
   * As early as possible.
   * Later during the project
   * We did not set them up yet. 
-  * Other:
+  * Other: [Text entry]
 
 
-Q9: In the context of your project, what information is being logged? [Multiple Choice]
+Q9: In the context of your project, what information is being logged? [Multiple choice]
   * Up/down status of microservices.
   * The number of requests each microservice receives per a certain period. 
   * The input/output of each request.
   * The request and response time for each call.
   * Resource consumption of each microservice, such as CPU, memory, and disk.
-  * Other: 
+  * Other: [Text entry]
   
 
 > Distributed tracing is critical for microservice-based application development and maintenance. 
 
-Q10: To what extent do you agree with the above statement in general:
+Q10: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. Distributed tracing should be set up as early as possible.
   * Agree. Distributed tracing should be set up later during the project. 
   * Disagree. I do not think these systems are necessary. 
-  * Other: 
+  * Other: [Text entry]
 
 
-Q11: In the context of your project, when did you set up distributed tracing? 
+Q11: In the context of your project, when did you set up distributed tracing? [Single choice]
   * As early as possible.
   * Later during the project
   * We did not set it up yet. 
-  * Other: 
+  * Other: [Text entry]
 
 
 > Automating the microservice setup process (e.g., automatically generating a microservice skeleton and plugging it into the entire product) is critical to save development time and costs.
 
-Q12: To what extent do you agree with the above statement in general. 
+Q12: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. Such a process should be set up as early as possible.
   * Agree. Such a process should be set up later during the project. 
   * Disagree. I do not think these systems are necessary. 
-  * Other:
+  * Other: [Text entry]
 
 
-Q13: In the context of your project, when did you automate the microservice setup?
+Q13: In the context of your project, when did you automate the microservice setup? [Single choice]
   * As early as possible.
   * Later during the project
   * We did not automate it yet. 
-  * Other:
+  * Other: [Text entry]
 
 
-Q14: In the context of your project, how did you define the granularity of microservices? [MC]
+Q14: In the context of your project, how did you define the granularity of microservices? [Multiple choice]
   * By business capabilities (i.e., grouping code that performs the same high-level functionality).
   * By data access (i.e., grouping code that accesses the same data).
   * By dependencies (i.e., grouping code that depends on a similar set of other sub-systems).
   * By delivery lifecycle (i.e., grouping code that has to be released together).
   * By team structure (i.e., grouping code that is developed by the same team).
   * By resource consumption (i.e., to ensure that the split into microservices does not result in excessive resource consumption due to containerization, etc.) 
-  * Other:
+  * Other: [Text entry]
 
 > Each microservice can be developed using its own programming language. 
 
-Q15: To what extent do you agree with the above statement in general:
+Q15: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. Always use the most appropriate language for each microservice.
-  * Disagree. A company should restrict to a specific set/number of languages to use (e.g., to facilitate an automated microservice setup process). 
-  * Other:
+  * Disagree. A company should restrict to use a specific set/number of languages (e.g., to facilitate an automated microservice setup process). 
+  * Other: [Text entry]
 
 
-Q16: In the context of your project, do you regulate the use of programming languages? 
+Q16: In the context of your project, do you regulate the use of programming languages? [Single choice]
   * No. Always use the most appropriate language for each microservice.
   * Yes. There is a restricted number / set of languages to use.
-  * Other:
+  * Other: [Text entry]
 
 
 > Each microservice should be owned by a specific person or team.
 
 
-Q17: To what extent do you agree with the above statement in general:
+Q17: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. 
   * Disagree. A company should not define owners for microservices.
   * N/A. Microservice ownership is not an important issue to consider.
-  * Other:
+  * Other: [Text entry]
 
-Q18: In the context of your project, do you identify microservice owners? 
+Q18: In the context of your project, do you identify microservice owners? [Single choice]
   * Yes. We define a clear owner for each microservice
   * No. We do not define owners for microservices.
-  * Other: 
+  * Other: [Text entry]
 
-Q19: If you specify service owners, what are their responsibilities? [MC]
+Q19: If you specify service owners, what are their responsibilities? [Multiple choice]
   * Troubleshoot their microservice
   * Fix bugs in their microservice 
   * Decide on the design and architecture of their microservice
   * Implement new feature requests
-  * Other:
+  * Other: [Text entry]
 
 
 
 > In microservice-based development, some code is shared by multiple microservices, e.g., the code of authentication, logging, and monitoring. 
 
-Q20: How should one manage such common code?
+Q20: How should one manage such common code? [Single choice]
   * As a standalone library that is used by other microservices. Have one version of the library that is used in all microservices. 
   * As a standalone library that is used by other microservices. Allow different microservices to use different versions of a shared library. 
   * As a standalone microservice.
   * As a standalone microservice that runs as a sidecar.
-  * Other:
+  * Other: [Text entry]
 
 
 
-Q21: In the context of your project, how do you manage common code?
+Q21: In the context of your project, how do you manage common code? [Single choice]
   * As a standalone library that is used by other microservices. We have one version of the library that is used in all microservices. 
   * As a standalone library that is used by other microservices. We allow different microservices to use different versions of a shared library. 
   * As a standalone microservice.
   * As a standalone microservice that runs as a sidecar.
   * We do not have any common code. 
-  * Other:
+  * Other: [Text entry]
 
 
 
 > Different customers might get a different variant of the developed product.
 
-Q22: How should one implement such variants? 
+Q22: How should one implement such variants? [Single choice]
   * Use feature flags/toggles (run-time decision)
   * Use role-based access: we check if the client has access to the called API (run-time decision)
   * Use separate deployments: independent modules are combined for each deployment as needed (build-time decision)
-  * Other:
+  * Other: [Text entry]
 
 
 
 
-Q23: In the context of your project, how do you implement variants: 
+Q23: In the context of your project, how do you implement variants? [Single choice] 
   * Using feature flags/toggles (run-time decision)
   * Using role-based access: we check if the client has access to the called API (run-time decision)
   * Using separate deployments: independent modules are combined for each deployment as needed (build-time decision)
   * N/A: we do not have variants.
-  * Other:
+  * Other: [Text entry]
 
 
 
 
-Q24: In the context of your project, how do you manage API changes? [MC]
+Q24: In the context of your project, how do you manage API changes? [Multiple choice]
   * Via direct API calls
   * Via a proxy, such as API gateway
   * Via a client library, such as Swagger
   * Via a message broker, such as RabbitMQ
-  * Other:
+  * Other: [Text entry]
 
 
 > There are currently more than 200 free and commercial tools in the Cloud Foundation website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
 
 
-Q25: In the context of your project, how do you deal with the plurality of tools? 
+Q25: In the context of your project, how do you deal with the plurality of tools? [Single choice]
   * We are happy with the tools that we have and rarely look for opportunities to replace them. 
   * We often reevaluate our toolset and extend it when better tools become available. 
   * We plan to evaluate our toolset but did not do that yet. 
-  * Other:
+  * Other: [Text entry]
 
 
 
-Q26: What is the next big challenge for microservices?
+Q26: What is the next big challenge for microservices? [Text entry]
 
-Q27: Any additional comments / suggestions you want to share with us? []
+Q27: Any additional comments / suggestions you want to share with us? [Text entry]
 
 
-Q28: Did you participate in our earlier interview study?
+Q28: Did you participate in our earlier interview study? [Yes/no option]
   * Yes
   * No 
 
 
 Q29-Q36: The following questions are intended to collect demographic information about the survey participant. The questions are fully optional but your answers will be highly appreciated.
 
-1) How long have you been working in industry? [Dropbox]
-2) Which company do you work at? 
-3) How long have you been working at the company?  [Dropbox]
-4) What is your job title?
-5) What type of application are you developing?
-6) What is your age? [Dropbox]
+1) How long have you been working in industry? [Number entry]
+
+2) Which company do you work at? [Text entry]
+
+3) How long have you been working at the company? [Number entry]
+
+4) What is your job title? [Text entry]
+
+5) What type of application are you developing? [Text entry]
+
+6) What is your age? [Number entry]
+
 7) What is your gender? [Dropbox]
+  * Male
+  * Female
+  * Prefer not to say
+  * Other
+  
 8) What is the highest degree that you have received? [Dropbox]
+  * No degree
+  * Undergraduate level degree (e.g., Bachelor's)
+  * Graduate level degree (e.g., Master's, PhD)
 
 
 
