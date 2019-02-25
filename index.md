@@ -31,9 +31,6 @@ Here are the list of survey questions:
 
 ------------
 
-#### Page1: Intro 
-
-#### Page2: Microservice Background
 
 Q1: How long have you been developing microservices? [Dropbox]
 
@@ -63,9 +60,8 @@ Q6: Are you working on commercial or open source project?
   * Commercial 
   * Open source
 
-#### Page3: Logging and Monitoring  
 
-Robust logging and monitoring systems are critical for efficient microservice-based development.
+> Robust logging and monitoring systems are critical for efficient microservice-based development.
 
 Q7: To what extent do you agree with the above statement in general:
 1) Agree. These systems should be set up as early as possible.
@@ -88,11 +84,9 @@ Q9: In the context of your project, what information is being logged? [MC]
 4) The request and response time for each call
 5) Resource consumption of each microservice, such as CPU, memory, and disk
 6) Other: 
+  
 
-
-#### Page 4: Distributed Tracing  
-
-Distributed tracing is critical for microservice-based application development and maintenance. 
+> Distributed tracing is critical for microservice-based application development and maintenance. 
 
 Q10: To what extent do you agree with the above statement in general:
 1) Agree. Distributed tracing should be set up as early as possible.
@@ -108,9 +102,7 @@ Q11: In the context of your project, when did you set up distributed tracing?
 4) Other: 
 
 
-#### Page 5: Automated Setup 
-
-Automating the microservice setup process (e.g., automatically generating a microservice skeleton and plugging it into the entire product) is critical to save development time and costs.
+> Automating the microservice setup process (e.g., automatically generating a microservice skeleton and plugging it into the entire product) is critical to save development time and costs.
 
 Q12: To what extent do you agree with the above statement in general. 
 1) Agree. Such a process should be set up as early as possible.
@@ -125,7 +117,6 @@ Q13: In the context of your project, when did you automate the microservice setu
 3) We did not automate it yet. 
 4) Other:
 
-#### Page 6: Microservice Granularity
 
 Q14: In the context of your project, how did you define the granularity of microservices? [MC]
 1) By business capabilities (i.e., grouping code that performs the same high-level functionality).
@@ -136,8 +127,7 @@ Q14: In the context of your project, how did you define the granularity of micro
 6) By resource consumption (i.e., to ensure that the split into microservices does not result in excessive resource consumption due to containerization, etc.) 
 7) Other:
 
-#### Page 7: Programming Languages 
-Each microservice can be developed using its own programming language. 
+> Each microservice can be developed using its own programming language. 
 
 Q15: To what extent do you agree with the above statement in general:
 1) Agree. Always use the most appropriate language for each microservice.
@@ -151,9 +141,7 @@ Q16: In the context of your project, do you regulate the use of programming lang
 3) Other:
 
 
-#### Page 8: Microservice Ownership 
-
-Each microservice should be owned by a specific person or team.
+> Each microservice should be owned by a specific person or team.
 
 
 Q17: To what extent do you agree with the above statement in general:
@@ -175,9 +163,8 @@ Q19: If you specify service owners, what are their responsibilities? [MC]
 5) Other:
 
 
-#### Page 9: Common Code
 
-In microservice-based development, some code is shared by multiple microservices, e.g., the code of authentication, logging, and monitoring. 
+> In microservice-based development, some code is shared by multiple microservices, e.g., the code of authentication, logging, and monitoring. 
 
 Q20: How should one manage such common code?
 1) As a standalone library that is used by other microservices. Have one version of the library that is used in all microservices. 
@@ -198,8 +185,7 @@ Q21: In the context of your project, how do you manage common code?
 
 
 
-#### Page 10: Variants for Different Customer Offerings 
-Different customers might get a different variant of the developed product.
+> Different customers might get a different variant of the developed product.
 
 Q22: How should one implement such variants? 
 1) Use feature flags/toggles (run-time decision)
@@ -220,8 +206,6 @@ Q23: In the context of your project, how do you implement variants:
 
 
 
-#### Page 11: API Management
-
 Q24: In the context of your project, how do you manage API changes? [MC]
 1) Via direct API calls
 2) Via a proxy, such as API gateway
@@ -230,10 +214,7 @@ Q24: In the context of your project, how do you manage API changes? [MC]
 5) Other:
 
 
-
-
-#### Page 12: Tools
-There are currently more than 200 free and commercial tools in the Cloud Foundation website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
+> There are currently more than 200 free and commercial tools in the Cloud Foundation website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
 
 
 Q25: In the context of your project, how do you deal with the plurality of tools? 
@@ -244,36 +225,26 @@ Q25: In the context of your project, how do you deal with the plurality of tools
 
 
 
-#### Page 13: Future of Microservices
-
 Q26: What is the next big challenge for microservices?
 
 Q27: Any additional comments / suggestions you want to share with us?
 
-#### Page 14: Demographics
 
 Q28: Did you participate in our earlier interview study?
 1) Yes
 2) No 
 
 
-The following questions are intended to collect demographic information about the survey participant. The questions are fully optional but your answers will be highly appreciated.
+Q29-Q36: The following questions are intended to collect demographic information about the survey participant. The questions are fully optional but your answers will be highly appreciated.
 
-Q29: How long have you been working in industry? [Dropbox]
-
-Q30: Which company do you work at? 
-
-Q31: How long have you been working at the company?  [Dropbox]
-
-Q32: What is your job title?
-
-Q33: What type of application are you developing?
-
-Q34: What is your age? [Dropbox]
-
-Q35: What is your gender? [Dropbox]
-
-Q36: What is the highest degree that you have received? [Dropbox]
+1) How long have you been working in industry? [Dropbox]
+2) Which company do you work at? 
+* How long have you been working at the company?  [Dropbox]
+* What is your job title?
+* What type of application are you developing?
+* What is your age? [Dropbox]
+* What is your gender? [Dropbox]
+* What is the highest degree that you have received? [Dropbox]
 
 
 
@@ -291,9 +262,29 @@ Thank you very much for taking the time filling in the survey, we sincerely appr
 
 
 ### Survey Data 
-We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Here are the survey results: 
+We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Here are the survey results:
 
 
+(1) Perceptions of Survey Participants:
+
+![Perceptions of Survey Participants](survey-participants-perceptions.png)
+
+
+(2) Alternative Solutions Applied by Survey Participants:
+
+![Alternative Solutions Applied by Survey Participants](survey-participants-alternative-solutions.png)
+
+(3) Logged Information: 
+
+![Perceptions of Survey Participants](logged-information.png)
+
+(4) Logged Information Usage
+
+![Perceptions of Survey Participants](logged-information-usage.png)
+
+(5) Service Owner Responsibilities
+
+![Perceptions of Survey Participants](service-owner-responsibility.png)
 
 
 
