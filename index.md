@@ -258,6 +258,7 @@ Q29-Q36: The following questions are intended to collect demographic information
   * No degree
   * Undergraduate level degree (e.g., Bachelor's)
   * Graduate level degree (e.g., Master's, PhD)
+  * Other
 
 
 Q37: If you would like to receive the results of the study, please fill out your contact information. This information will only be used to contact you with the results. It will not be associated with your other input during data aggregation.
