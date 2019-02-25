@@ -265,26 +265,25 @@ Thank you very much for taking the time filling in the survey, we sincerely appr
 We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Here are the survey results:
 
 
-(1) Perceptions of Survey Participants:
+**1) Perceptions of Survey Participants:**
 
-![Perceptions of Survey Participants](survey-participants-perceptions.png)
+<img src="survey-participants-perceptions.png" alt="drawing" width="750"/>
 
+**2) Alternative Solutions Applied by Survey Participants:**
 
-(2) Alternative Solutions Applied by Survey Participants:
+<img src="survey-participants-alternative-solutions.png" alt="drawing" width="600"/>
 
-![Alternative Solutions Applied by Survey Participants](survey-participants-alternative-solutions.png)
+**3) Logged Information:**
 
-(3) Logged Information: 
+<img src="logged-information.png" alt="drawing" width="410"/>
 
-![Perceptions of Survey Participants](logged-information.png)
+**4) Logged Information Usage:**
 
-(4) Logged Information Usage
+<img src="logged-information-usage.png" alt="drawing" width="560"/>
 
-![Perceptions of Survey Participants](logged-information-usage.png)
+**5) Service Owner Responsibilities:**
 
-(5) Service Owner Responsibilities
-
-![Perceptions of Survey Participants](service-owner-responsibility.png)
+<img src="service-owner-responsibility.png" alt="drawing" width="600"/>
 
 
 
