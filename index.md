@@ -72,7 +72,7 @@ Q7: To what extent do you agree with the above statement in general? [Single cho
 
 Q8: In the context of your project, when did you set up logging and monitoring? [Single choice]
   * As early as possible.
-  * Later during the project
+  * Later during the project.
   * We did not set them up yet. 
   * Other: [Text entry]
 
@@ -91,13 +91,13 @@ Q9: In the context of your project, what information is being logged? [Multiple 
 Q10: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. Distributed tracing should be set up as early as possible.
   * Agree. Distributed tracing should be set up later during the project. 
-  * Disagree. I do not think these systems are necessary. 
+  * Disagree. I do not think distributed tracing is necessary. 
   * Other: [Text entry]
 
 
 Q11: In the context of your project, when did you set up distributed tracing? [Single choice]
   * As early as possible.
-  * Later during the project
+  * Later during the project.
   * We did not set it up yet. 
   * Other: [Text entry]
 
@@ -107,13 +107,13 @@ Q11: In the context of your project, when did you set up distributed tracing? [S
 Q12: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. Such a process should be set up as early as possible.
   * Agree. Such a process should be set up later during the project. 
-  * Disagree. I do not think these systems are necessary. 
+  * Disagree. I do not think such a process is necessary. 
   * Other: [Text entry]
 
 
 Q13: In the context of your project, when did you automate the microservice setup? [Single choice]
   * As early as possible.
-  * Later during the project
+  * Later during the project.
   * We did not automate it yet. 
   * Other: [Text entry]
 
@@ -136,8 +136,8 @@ Q15: To what extent do you agree with the above statement in general? [Single ch
 
 
 Q16: In the context of your project, do you regulate the use of programming languages? [Single choice]
-  * No. Always use the most appropriate language for each microservice.
-  * Yes. There is a restricted number / set of languages to use.
+  * No. We always use the most appropriate language for each microservice.
+  * Yes. We have a restricted number / set of languages to use.
   * Other: [Text entry]
 
 
@@ -147,7 +147,6 @@ Q16: In the context of your project, do you regulate the use of programming lang
 Q17: To what extent do you agree with the above statement in general? [Single choice]
   * Agree. 
   * Disagree. A company should not define owners for microservices.
-  * N/A. Microservice ownership is not an important issue to consider.
   * Other: [Text entry]
 
 Q18: In the context of your project, do you identify microservice owners? [Single choice]
@@ -210,17 +209,17 @@ Q24: In the context of your project, how do you manage API changes? [Multiple ch
   * Via direct API calls
   * Via a proxy, such as API gateway
   * Via a client library, such as Swagger
-  * Via a message broker, such as RabbitMQ
+  * Via message-based communication, such as RabbitMQ
   * Other: [Text entry]
 
 
-> There are currently more than 200 free and commercial tools in the Cloud Foundation website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
+> There are currently more than 200 free and commercial tools in the Cloud Native Interactive Landscape website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
 
 
 Q25: In the context of your project, how do you deal with the plurality of tools? [Single choice]
   * We are happy with the tools that we have and rarely look for opportunities to replace them. 
-  * We often reevaluate our toolset and extend it when better tools become available. 
-  * We plan to evaluate our toolset but did not do that yet. 
+  * We often evaluate our toolset and extend it when better tools become available. 
+  * We plan to evaluate our toolset but have not done that yet. 
   * Other: [Text entry]
 
 
@@ -259,7 +258,6 @@ Q29-Q36: The following questions are intended to collect demographic information
   * No degree
   * Undergraduate level degree (e.g., Bachelor's)
   * Graduate level degree (e.g., Master's, PhD)
-
 
 
 Q37: If you would like to receive the results of the study, please fill out your contact information. This information will only be used to contact you with the results. It will not be associated with your other input during data aggregation.
