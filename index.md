@@ -249,13 +249,13 @@ Q29-Q36: The following questions are intended to collect demographic information
 
 6) What is your age? [Number entry]
 
-7) What is your gender? [Dropbox]
+7) What is your gender? [Single choice]
   * Male
   * Female
   * Prefer not to say
   * Other
   
-8) What is the highest degree that you have received? [Dropbox]
+8) What is the highest degree that you have received? [Single choice]
   * No degree
   * Undergraduate level degree (e.g., Bachelor's)
   * Graduate level degree (e.g., Master's, PhD)
@@ -264,9 +264,9 @@ Q29-Q36: The following questions are intended to collect demographic information
 
 Q37: If you would like to receive the results of the study, please fill out your contact information. This information will only be used to contact you with the results. It will not be associated with your other input during data aggregation.
 
-Name :  
+Name :  [Text entry]
 
-Email :    
+Email : [Text entry]    
 
 
 Thank you very much for taking the time filling in the survey, we sincerely appreciate your help! 
