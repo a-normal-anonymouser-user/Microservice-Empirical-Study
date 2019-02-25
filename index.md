@@ -213,7 +213,7 @@ Q24: In the context of your project, how do you manage API changes? [Multiple ch
   * Other: [Text entry]
 
 
-> There are currently more than 200 free and commercial tools in the Cloud Native Interactive Landscape website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
+> There are currently more than 200 free and commercial tools in the There are currently more than 200 free and commercial tools in the Cloud Native Interactive Landscape website for supporting microservice-based engineering. Moreover, new tools are frequently developed and become available. 
 
 
 Q25: In the context of your project, how do you deal with the plurality of tools? [Single choice]
