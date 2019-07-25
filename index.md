@@ -23,7 +23,7 @@ Digial version can be downloaded [here](open-coding-mindmap.mm). We cannot publi
 
 
 ## Survey Questions
-The survey consisted of eight groups of questions and a total of 37 questions of mixed types. Most of the questions were single or multiple choices, numeric range choices, yes/no options, and open-ended text entries.
+The survey consisted of 13 groups of questions and a total of 37 questions of mixed types. Most of the questions were single or multiple choices, numeric range choices, yes/no options, and open-ended text entries.
 
 In addition to the microservice background and demographic information, we asked questions related to architectural concepts, infrastructure, and code management. In each question, participants had a chance to either agree or disagree with best practices identified during the interview study, or identify their solution for a particular challenge. We also asked participants to distinguish between the solution they apply in practice (what they do) and their perception (what they think they should do). 
 
@@ -275,7 +275,7 @@ Thank you very much for taking the time filling in the survey, we sincerely appr
 
 
 ## Survey Results 
-We received a total of 148 responses; 44 of them were complete (completion rate: 29.7%) and 28 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Here are the survey results:
+We received a total of 172 responses; 58 of them were complete (completion rate: 33.7%) and 35 satisfied the same participant selection criteria we applied for interview study: at least two years of microservice development experience. Here are the survey results:
 
 
 **1) Perceptions of survey participants:**
