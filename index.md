@@ -14,9 +14,9 @@ For open coding, two of the authors of the paper independently read the transcri
 
 Conceptually similar codes were grouped together to form categories. Our mapping of concepts -> subcategories -> categories is below. 
 
-[![](mindmap-1.png)](mindmap-1.png)
+[![](open-coding-mindmap.png)](open-coding-mindmap.png)
 
-Digial version can be downloaded [here](MicroserviceStudy-1.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
+Digial version can be downloaded [here](open-coding-mindmap.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
 
 
 # Survey Study
