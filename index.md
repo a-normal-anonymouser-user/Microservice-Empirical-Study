@@ -9,14 +9,9 @@ For open coding, two of the authors of the paper independently read the transcri
 
 [![](card_sorting_exercise8.jpeg)](card_sorting_exercise8.jpeg)  [![](card_sorting_exercise12.jpeg)](card_sorting_exercise12.jpeg)
 
+## Categories Identified in Interview Study 
 
-## Mapping Concepts to Quotes
-
-Conceptually similar concepts were grouped together to form categories. Our mapping of concepts -> subcategories -> categories is below. 
-
-[![](open-coding-mindmap.png)](open-coding-mindmap.png)
-
-Digial version can be downloaded [here](open-coding-mindmap.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
+<img src="table-interview.png" alt="drawing" width="800"/>
 
 
 # Survey Study
@@ -297,4 +292,14 @@ We received a total of 185 responses; 61 of them were complete (completion rate:
 **3) Survey Results: Code Management**
 
 <img src="table-result-code.png" alt="drawing" width="800"/>
+
+
+
+# Mapping Concepts to Quotes
+
+Conceptually similar concepts were grouped together to form categories. Our mapping of concepts (from both interviews and surveys) -> subcategories -> categories is below. 
+
+[![](open-coding-mindmap.png)](open-coding-mindmap.png)
+
+Digial version can be downloaded [here](open-coding-mindmap.mm). We cannot publically share quotes not included in the paper at the moment due to confidentiality issues; we will reach out to the study participants and ask for their consent, and then update the map and the manuscript. 
 
